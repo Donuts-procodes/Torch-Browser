@@ -36,8 +36,8 @@ Designed with a sleek "Charcoal & Ember" dark mode UI, Torch provides an optimiz
 ### 1. Build from Source
 Clone the repository and build the Fat JAR using Maven:
 ```bash
-git clone [https://github.com/yourusername/TorchBrowser.git](https://github.com/yourusername/TorchBrowser.git)
-cd TorchBrowser
+git clone [https://github.com/Donuts-procodes/Torch-Browser.git](https://github.com/Donuts-procodes/Torch-Browser.git)
+cd Torch-Browser
 mvn clean package
 ```
 2. Run the Application
