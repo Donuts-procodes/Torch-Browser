@@ -35,16 +35,25 @@ Designed with a sleek "Charcoal & Ember" dark mode UI, Torch provides an optimiz
 
 ### 1. Build from Source
 Clone the repository and build the Fat JAR using Maven:
+#### Install Maven and Java
 ```bash
-git clone [https://github.com/Donuts-procodes/Torch-Browser.git](https://github.com/Donuts-procodes/Torch-Browser.git)
+choco install maven openjdk -y
+```
+#### Refresh the environment (so PowerShell recognizes 'mvn')
+```bash
+refreshenv
+```
+#### Clone and Build
+```bash 
+git clone https://github.com/Donuts-procodes/Torch-Browser.git
 cd Torch-Browser
 mvn clean package
 ```
-2. Run the Application
+### 2. Run the Application
 Once compiled, you can run the executable JAR directly from the target directory:
 
-Bash
-```
+
+```Bash
 java -jar target/TorchBrowser-1.0.jar
 ```
 Note: For Windows users, a native TorchBrowser.exe can be generated using Launch4j by targeting the compiled Fat JAR and utilizing the Boot.java dummy class to bypass JavaFX module path restrictions.
